@@ -6,6 +6,9 @@
         android:icon="@drawable/ic_launcher"
 >
 
+        <service
+            android:name="jlnshen.kptaipei.service.KPApiSpiceService"
+            android:exported="false" />
     </application>
 
 </manifest>
